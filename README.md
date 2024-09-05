@@ -6,13 +6,13 @@ This project focuses on building a real-time Pakistan Sign Language (PSL) interp
 This project incorporates a variety of technologies to ensure efficient real-time sign language interpretation:
 
 - **YOLOv5:** A deep learning model for detecting signs and gestures.
--**PyTorch:** for training and testing YOLOv5
--**Conda:** For environment management
--**Python:** For scripting and controlling the FPGA and YOLOv5 model.
--**OpenCV:** For image processing.
--**FPGA (Field-Programmable Gate Array):** Hardware acceleration for real-time processing.
--**Verilog/VHDL:** For FPGA programming.
--**ONNX (Open Neural Network Exchange):** For deploying the YOLOv5 model on the FPGA.
+- **PyTorch:** for training and testing YOLOv5
+- **Conda:** For environment management
+- **Python:** For scripting and controlling the FPGA and YOLOv5 model.
+- **OpenCV:** For image processing.
+- **FPGA (Field-Programmable Gate Array):** Hardware acceleration for real-time processing.
+- **Verilog/VHDL:** For FPGA programming.
+- **ONNX (Open Neural Network Exchange):** For deploying the YOLOv5 model on the FPGA.
 ## Results
 
 The real-time Pakistan Sign Language (PSL) interpretation system was tested using a variety of sign gestures captured through a camera connected to the FPGA. Below are the key results:
